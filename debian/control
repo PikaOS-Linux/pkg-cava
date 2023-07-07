@@ -3,7 +3,7 @@ Section: sound
 Priority: optional
 Maintainer: Lasse Flygenring-Harrsen <Lasse@Flygenring-Harrsen.com>
 Uploaders: Gard Spreemann <gspr@nonempty.org>
-Build-Depends: debhelper-compat (= 13), libfftw3-dev, libasound2-dev, libncursesw5-dev, libpulse-dev, libncurses5-dev, libtool-bin, libiniparser-dev
+Build-Depends: debhelper-compat (= 13), build-essential, libfftw3-dev, libasound2-dev, libncursesw5-dev, libpulse-dev, libtool, automake, autoconf-archive, libiniparser-dev, libsdl2-2.0-0, libsdl2-dev, libpipewire-0.3-dev
 Standards-Version: 4.5.0
 Homepage: https://github.com/karlstav/cava
 Rules-Requires-Root: no
