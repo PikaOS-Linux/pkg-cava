@@ -1,19 +1,19 @@
-Source: upstream-name
-Section: admin
+Source: cava-alsa
+Section: sound
 Priority: optional
-Maintainer: name <email>
-Standards-Version: 4.6.1
-Build-Depends: debhelper-compat (= 13)
+Maintainer: Lasse Flygenring-Harrsen <Lasse@Flygenring-Harrsen.com>
+Uploaders: Gard Spreemann <gspr@nonempty.org>
+Build-Depends: debhelper-compat (= 13), libfftw3-dev, libasound2-dev, libncursesw5-dev, libpulse-dev, libncurses5-dev, libtool-bin, libiniparser-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/karlstav/cava
 Rules-Requires-Root: no
 
-Package: pkgname1
-Architecture: linux-any
-# Delete any of these lines if un-used
-Depends: ${misc:Depends}, depends
-Recommends: high priority optdepends
-Conflicts: conflicts
-Suggests: low priority optdepends
-Breaks: also conflicts!?
-Provides: provides
-#
-Description: pkgdesc
+Package: cava
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: pulseaudio
+Description: Console-based Audio Visualizer for Alsa
+ C.A.V.A. is a bar spectrum audio visualizer for the Linux terminal using
+ ALSA, pulseaudio or fifo buffer for input. This program is not intended
+ for scientific use. It's written to look responsive and aesthetic when
+ used to visualize music.
