@@ -1,5 +1,23 @@
-upstream-name (pkgver-pkgrel) distro_codename; urgency=medium
+cava-alsa (0.8.3-99pika1) unstable; urgency=medium
 
-  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Actually package this properly
+ -- ferereo <harderthanfire@gmail.com>  Tue, 21 Dec 2021 14:51:21 +0100
 
- -- ferreo <harderthanfire@gmail.com>  Wed, 18 Jan 2023 21:48:14 +0000
+cava-alsa (0.7.4-1) unstable; urgency=medium
+
+  * New upstream version. (Closes: #984005)
+  * Add myself to uploaders.
+
+ -- Gard Spreemann <gspr@nonempty.org>  Tue, 21 Dec 2021 14:51:21 +0100
+
+cava-alsa (0.7.3-1) unstable; urgency=medium
+
+  * Updated to new upstream version.  
+
+ -- Lasse Flygenring-Harrsen <Lasse@Flygenring-Harrsen.com>  Sun, 11 Oct 2020 00:48:06 +0200
+
+cava-alsa (0.7.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #954325)
+
+ -- Lasse Flygenring-Harrsen <Lasse@Flygenring-Harrsen.com>  Thu, 09 Jul 2020 01:02:20 +0200
