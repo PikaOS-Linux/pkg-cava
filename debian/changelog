@@ -1,7 +1,14 @@
+cava-alsa (0.8.3-99pika2) unstable; urgency=medium
+
+  * Actually package this properly
+
+ -- ferereo <harderthanfire@gmail.com>  Tue, 21 Dec 2021 14:51:21 +0100
+
 cava-alsa (0.8.3-99pika1) unstable; urgency=medium
 
   * Actually package this properly
- -- ferereo <harderthanfire@gmail.com>  Tue, 21 Dec 2021 14:51:21 +0100
+
+-- ferereo <harderthanfire@gmail.com>  Tue, 21 Dec 2021 14:51:21 +0100
 
 cava-alsa (0.7.4-1) unstable; urgency=medium
 
